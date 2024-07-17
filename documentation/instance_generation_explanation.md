@@ -20,6 +20,8 @@ Here, $`t^{min}_{j}`$ is the minimum delivery time to a customer across all fact
 
 The priority of a customer $j$ is drawn from the interval $[1, 10]$. The emission price is set at $89\frac{€}{t}$ corresponding to the average emission price from 01.2023 to 09.2023 [Trade Economics](https://tradingeconomics.com/commodity/carbon).
 
+The factory eligibility constraints are more difficult to initialize, as the number of eligible factories for a job is likely to vary depending on the company. For instances with $f = 2$, one factory is randomly selected as eligible for each job. In instances with $f=\lbrace3, 4\rbrace$ factories, the eligibility is randomly set to one or two factories per job, which are randomly selected.
+
 ### Transportation Parameters
 
 - Transportation costs per kilometer: $1.56€$
