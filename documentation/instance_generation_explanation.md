@@ -9,9 +9,7 @@ Due to the NP-hardness of the DPFSP, only small instances with the following cha
 
 Concerning the factories and customer locations, Europe is used as a reference. First, the countries of the factories are selected via roulette wheel selection based on the manufacturing industry's GDP without replacement. The roulette wheel selection is used because it is assumed that economically strong countries are preferred when selecting a location. Based on this, a random city within the selected country is chosen as the factory location. The customer location corresponds to a random city in the individual European countries. Given the longitude and latitude of the cities, the delivery and transfer distances are calculated using the Open Source Routing Machine. Distances are used since the API uses cars as the driving mode. Furthermore, it is assumed that transports are carried out at full truckloads so that the costs and emissions are allocated proportionately to the tool or product weight. The due dates are assumed to be factory-dependent and are calculated as follows:
 
-$$
-d_{j,f}=\max\left\{0,\sum_{i=1}^m\left(p^1_{j,i,f}+p^{setup}_{j,i,f}\right)\cdot\left(1+\frac{rand}{2\cdot f}\right)+t^{min}_{j,f}-\left(t_{j,f}-t^{min}_{j}\right)\right\} \quad \forall j,f
-$$
+()
 
 Here, $t^{min}_{j}$ is the minimum delivery time to a customer across all factories, $t_{j,f}$ is the delivery time from factory $f$ to customer $j$, and $rand$ is a random number between 0 and 1. Consequently, longer delivery times result in shorter due dates for production.
 
