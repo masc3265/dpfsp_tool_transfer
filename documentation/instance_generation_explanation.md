@@ -11,7 +11,7 @@ Concerning the factories and customer locations, Europe is used as a reference. 
 
 ![plot](/documentation/due_dates.png)
 
-Here, $t^{min}_{j}$ is the minimum delivery time to a customer across all factories, $t_{j,f}$ is the delivery time from factory $f$ to customer $j$, and $rand$ is a random number between 0 and 1. Consequently, longer delivery times result in shorter due dates for production.
+Here,  $`t^{min}_{j}`$ is the minimum delivery time to a customer across all factories, $`t_{j,f}`$ is the delivery time from factory $f$ to customer $j$, and $rand$ is a random number between 0 and 1. Consequently, longer delivery times result in shorter due dates for production.
 
 The priority of a customer $j$ is drawn from the interval $[1, 10]$. The emission price is set at $89\frac{€}{t}$, corresponding to the average emission price from January 2023 to September 2023 [Trade Economics](https://tradingeconomics.com/commodity/carbon).
 
