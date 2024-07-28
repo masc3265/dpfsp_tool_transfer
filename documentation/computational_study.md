@@ -9,7 +9,7 @@ The high number of parameters enables numerous analyses to synthesize cause-and-
 5. Analysis of the effect of varying the product and tool weight
 6. Analysis of the effect of increasing the number of factories or machines
 
-Due to the page limit, the focus is set to examine the impact of tool transfers, the carbon emission price, and the limitation of transfer options. Since the impact of tool transfers is analyzed via random instances with varying eligibility, only the procedure for analyzing the impact of the carbon emission price and the limitation of tool transfers is explained in more detail below. 
+Due to the page limit, the focus is set to examine the impact of the carbon emission price and the limitation of transfer options. The procedure for analyzing the impact of the carbon emission price and the limitation of tool transfers is explained in more detail below. 
 
 ### Emission Price Variation
 
